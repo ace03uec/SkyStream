@@ -1,0 +1,14 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="SkyStream" EntryPointType="SkyStream.App" RuntimeVersion="4.7.50308.0">
+  <Deployment.Parts>
+    <AssemblyPart x:Name="SkyStream" Source="SkyStream.dll" />
+    <AssemblyPart x:Name="Microsoft.Live.Controls" Source="Microsoft.Live.Controls.dll" />
+    <AssemblyPart x:Name="Microsoft.Live" Source="Microsoft.Live.dll" />
+    <AssemblyPart x:Name="Microsoft.SilverlightMediaFramework.Compatibility.Phone" Source="Microsoft.SilverlightMediaFramework.Compatibility.Phone.dll" />
+    <AssemblyPart x:Name="Microsoft.SilverlightMediaFramework.Core.Phone" Source="Microsoft.SilverlightMediaFramework.Core.Phone.dll" />
+    <AssemblyPart x:Name="Microsoft.SilverlightMediaFramework.Plugins.Phone" Source="Microsoft.SilverlightMediaFramework.Plugins.Phone.dll" />
+    <AssemblyPart x:Name="Microsoft.SilverlightMediaFramework.Plugins.Progressive.Phone" Source="Microsoft.SilverlightMediaFramework.Plugins.Progressive.Phone.dll" />
+    <AssemblyPart x:Name="Microsoft.SilverlightMediaFramework.Plugins.SmoothStreaming.Phone" Source="Microsoft.SilverlightMediaFramework.Plugins.SmoothStreaming.Phone.dll" />
+    <AssemblyPart x:Name="Microsoft.SilverlightMediaFramework.Utilities.Phone" Source="Microsoft.SilverlightMediaFramework.Utilities.Phone.dll" />
+    <AssemblyPart x:Name="System.Windows.Interactivity" Source="System.Windows.Interactivity.dll" />
+  </Deployment.Parts>
+</Deployment>
